@@ -123,6 +123,7 @@ export function AudioPlayer({ audioUrl, moodName }: AudioPlayerProps) {
         <div className="flex items-center gap-2 flex-1">
           <span className="text-xs text-muted-foreground">Âm lượng</span>
           <input
+            title="Điều chỉnh âm lượng"
             type="range"
             min="0"
             max="1"
